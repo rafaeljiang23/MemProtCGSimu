@@ -28,8 +28,8 @@ xv = zeros(N, 1);
 yv = zeros(N, 1);
 av = zeros(N, 1);
 %%% defining useful simulation parameters
-rdelta = 0.1;     % skin depth, default:0.5
-adelta = 0.01;    % rotation allowance, default:0.02
+rdelta = 0.1;     % skin depth
+adelta = 0.01;    % rotation allowance
 
 % h = 0.001;      % delta time, defined in run_MemCGSimu_Assembly.m
 % Nsteps =  1500000;       % total number of time-steps, defined in run_MemCGSimu_Assembly.m
@@ -41,8 +41,8 @@ kb = 1;        % boltzman
 beta = 1/(kb*T);
 
 %%% bond between protomers
-rmin = 0.1;      % minimal distance between sites
-rbond = 0.9;     % reaction distance
+% rmin = 0.1;      % minimal distance between sites, defined in run_MemCGSimu_Assembly.m
+% rbond = 0.9;     % reaction distance, defined in run_MemCGSimu_Assembly.m
 
 bond = zeros(N, N);
 
