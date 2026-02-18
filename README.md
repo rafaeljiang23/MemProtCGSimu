@@ -3,7 +3,7 @@ This is a workflow to simulate membrane protein (TRPV3) oligomer plasiticity thr
 
 Developer: Yining Jiang
 
-Publication: XXX
+Publication: XXX (NOTE: This repo is currently public for peer-review purpose)
 
 User should email to the corresponding author of the paper for details about this work: Professor Simon Scheuring (sis2019@med.cornell.edu)
 
